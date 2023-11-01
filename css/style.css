@@ -1,0 +1,132 @@
+body{
+	background-image:url ('../images/cyber.jpg') white;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color: blue;
+	color:#fff;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image: url('../images/cyber.jpg');
+	background-position: right;
+	background-position: 100px 200px;
+	height: 150px;
+	margin-bottom: 20px;
+	text-align:center;
+}
+
+#showcase h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#main h1{
+	color: blue;
+}
+
+#main h2{
+	color: blue;
+}
+
+#main h3{
+	color: blue;
+}
+
+
+.my-list{
+	display: block;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background: blue;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/*#sidebar:hover{
+	background: blue;
+	color: white;
+}*/
+
+.categories h2{
+	color: blue;
+}
+
+a{
+	font-style: 0;
+	color: black;
+}
+
+a:hover{
+	color:blue;
+}
+
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+
+/* For additional decoration of the floats we apply the codes below*/
+
+@media(max-width:600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+}
+
+
